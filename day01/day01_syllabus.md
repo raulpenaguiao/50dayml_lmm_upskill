@@ -65,6 +65,8 @@ The focus is on hands-on learning by coding, running, and experimenting.
 ---
 
 ## 🎁 Deliverables
+- `day01_syllabus.md` file with this syllabus
+- 
 - `day1_mnist_nn.ipynb` notebook with:
   - Data loading and visualization
   - Model definition and training loop
