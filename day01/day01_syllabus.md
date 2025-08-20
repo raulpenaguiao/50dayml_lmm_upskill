@@ -19,7 +19,7 @@ The focus is on hands-on learning by coding, running, and experimenting.
 
 ### 1. Setup & Warm-up
 - Install/verify environment: Python, PyTorch, Jupyter/VSCode
-- Import core libraries: `torch`, `torchvision`, `matplotlib`
+- Import core libraries (see requirements.txt): `torch`, `torchvision`, `matplotlib`
 
 ### 2. Data Loading
 - Use `torchvision.datasets.MNIST` to load data
@@ -41,6 +41,7 @@ The focus is on hands-on learning by coding, running, and experimenting.
 ### 5. Evaluation
 - Evaluate on test dataset
 - Print accuracy and visualize predictions for some samples
+- Confusion matrix
 
 ---
 
@@ -61,21 +62,18 @@ The focus is on hands-on learning by coding, running, and experimenting.
 4. **Evaluation**
    - Compute test accuracy
    - Visualize predictions vs ground truth for 10 test samples
+   - Confusion matrix
 
 ---
 
-## 🎁 Deliverables
+## 📚 Study material
 - `day01_syllabus.md` file with this syllabus
-- 
-- `day1_mnist_nn.ipynb` notebook with:
+- `day01_notebook.ipynb` notebook with:
   - Data loading and visualization
   - Model definition and training loop
   - Test accuracy result
   - Sample predictions with labels
-- Short README section (in notebook or repo) describing:
-  - The model architecture
-  - Training performance (loss curve + accuracy)
-  - Key learnings from Day 1
+  - Confusion matrix
 
 ---
 
@@ -83,3 +81,5 @@ The focus is on hands-on learning by coding, running, and experimenting.
 - Add a second hidden layer
 - Try different optimizers (SGD vs Adam)
 - Train for more epochs and compare accuracy
+- Display confusion matrix
+

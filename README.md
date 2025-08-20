@@ -24,9 +24,8 @@ The course is structured into **5 phases**, each with specific goals and a capst
 
 ### **Phase 1: Foundations of ML & Deep Learning (Days 1–10)**
 - Python, PyTorch, and ML tooling setup  
-- Linear algebra, calculus, probability for ML  
 - Classical ML (regression, gradient descent)  
-- Neural networks from scratch  
+- Neural networks from scratch
 
 **Project 1:** Implement a simple neural network in PyTorch for MNIST classification  
 
@@ -116,7 +115,16 @@ By completing this course, you will:
 ## Day 1: Building Your First Neural Network in PyTorch
 Link to syllabus: [day01_syllabus.md](day01/day01_syllabus.md)
 
+Jump straight into building and training a simple neural network using PyTorch to classify handwritten digits from the MNIST dataset.  
+The focus is on hands-on learning by coding, running, and experimenting.
+
 ## Day 2: Convolutional Neural Networks for Image Classification
 Link to syllabus: [day02_syllabus.md](day02/day02_syllabus.md)
+
+Understand and implement a basic Convolutional Neural Network (CNN) in PyTorch for image classification on the MNIST dataset.  
+Learn how CNNs improve performance over simple MLPs for image data.
+
+
+
 
 
