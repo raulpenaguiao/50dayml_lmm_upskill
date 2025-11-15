@@ -2,8 +2,12 @@
 # Day 1: Building Your First Neural Network in PyTorch
 
 ## 🎯 Goal
-Jump straight into building and training a simple neural network using PyTorch to classify handwritten digits from the MNIST dataset.  
+Jump straight into building and training a simple neural network using PyTorch to classify handwritten digits from the MNIST dataset.
 The focus is on hands-on learning by coding, running, and experimenting.
+
+**Mathematical Assumptions:** You understand gradient descent, backpropagation (chain rule), loss functions, and optimization fundamentals. This day focuses on PyTorch implementation, not mathematical theory.
+
+**Time estimate:** 3-4 hours
 
 ---
 

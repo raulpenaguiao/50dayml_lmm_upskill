@@ -1,8 +1,12 @@
 # Day 2: Convolutional Neural Networks for Image Classification
 
 ## 🎯 Goal
-Understand and implement a basic Convolutional Neural Network (CNN) in PyTorch for image classification on the MNIST dataset.  
+Understand and implement a basic Convolutional Neural Network (CNN) in PyTorch for image classification on the MNIST dataset.
 Learn how CNNs improve performance over simple MLPs for image data.
+
+**Mathematical Focus:** Understand convolution as a linear operator, receptive fields, and parameter sharing. You should be comfortable with convolution from signal processing or PDEs.
+
+**Time estimate:** 3-4 hours
 
 ---
 
