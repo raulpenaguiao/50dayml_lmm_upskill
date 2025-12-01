@@ -5,6 +5,8 @@ scikit-learn
 numpy
 pandas
 jupyter
+ipywidgets
+ipycanvas
 tqdm
 transformers
 datasets
