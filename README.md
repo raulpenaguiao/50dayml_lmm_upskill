@@ -141,7 +141,7 @@ The course is structured into **5 phases**, each with specific goals and a capst
 ## 📊 Current State of the Course
 
 ### Completion Summary
-- **Notebooks Created**: 16/50 (Days 1-16) = **32% complete**
+- **Notebooks Created**: 21/50 (Days 1-21) = **42% complete**
 - **Syllabi Created**: 50/50 (All days) = **100% complete**
 - **Reading Materials**: 50/50 (All days) = **100% complete**
 - **Project Directories**: 5/5 = **100% created**
@@ -152,10 +152,14 @@ The course is structured into **5 phases**, each with specific goals and a capst
 - Covers neural networks, CNNs, optimization, transfer learning, evaluation metrics
 - Full project 1 (MNIST neural network) ready
 
-✅ **Phase 2: Deep Learning & NLP Basics (Days 11-16)**
-- 6 notebooks completed covering NLP preprocessing, embeddings, RNNs, LSTMs, Seq2seq, attention
+✅ **Phase 2: Deep Learning & NLP Basics (Days 11-20)**
+- 10 notebooks completed covering NLP preprocessing, embeddings, RNNs, LSTMs, Seq2seq, attention, Transformers, text classification, and character-level text generation
+- Project 2 (Character-Level RNN) fully implemented with training and evaluation
 - Foundation for transformer understanding established
-- Remaining Phase 2 (Days 17-20): Syllabus/reading ready, notebooks pending
+
+✅ **Phase 3 Start: Transformers & LLM Foundations (Days 21)**
+- Day 21: Complete Transformer encoder architecture from scratch
+- Ready for decoder and GPT implementation
 
 ✅ **All Planning Materials**
 - Complete syllabus files for all 50 days
@@ -246,168 +250,268 @@ By completing this course, you will:
 # Outline of course
 
 ## Day 1: Building Your First Neural Network in PyTorch
-Link to syllabus: [day01_syllabus.md](day01/day01_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day01_syllabus.md](day01/day01_syllabus.md) | [reading.md](day01/reading.md) |
 
-Jump straight into building and training a simple neural network using PyTorch to classify handwritten digits from the MNIST dataset.  
+Jump straight into building and training a simple neural network using PyTorch to classify handwritten digits from the MNIST dataset.
 The focus is on hands-on learning by coding, running, and experimenting.
 
 ## Day 2: Convolutional Neural Networks for Image Classification
-Link to syllabus: [day02_syllabus.md](day02/day02_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day02_syllabus.md](day02/day02_syllabus.md) | [reading.md](day02/reading.md) |
 
 Understand and implement a basic Convolutional Neural Network (CNN) in PyTorch for image classification on the MNIST dataset.
 Learn how CNNs improve performance over simple MLPs for image data.
 
 ## Day 3: Advanced CNNs and Data Augmentation
-Link to syllabus: [day03_syllabus.md](day03/day03_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day03_syllabus.md](day03/day03_syllabus.md) | [reading.md](day03/reading.md) |
 
 ## Day 4: Understanding Gradient Descent and Backpropagation
-Link to syllabus: [day04_syllabus.md](day04/day04_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day04_syllabus.md](day04/day04_syllabus.md) | [reading.md](day04/reading.md) |
 
 ## Day 5: Building Neural Networks from Scratch
-Link to syllabus: [day05_syllabus.md](day05/day05_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day05_syllabus.md](day05/day05_syllabus.md) | [reading.md](day05/reading.md) |
 
 ## Day 6: Transfer Learning and Pretrained Models
-Link to syllabus: [day06_syllabus.md](day06/day06_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day06_syllabus.md](day06/day06_syllabus.md) | [reading.md](day06/reading.md) |
 
 ## Day 7: Model Evaluation and Metrics
-Link to syllabus: [day07_syllabus.md](day07/day07_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day07_syllabus.md](day07/day07_syllabus.md) | [reading.md](day07/reading.md) |
 
 ## Day 8: Hyperparameter Tuning and Experimentation
-Link to syllabus: [day08_syllabus.md](day08/day08_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day08_syllabus.md](day08/day08_syllabus.md) | [reading.md](day08/reading.md) |
 
 ## Day 9: Advanced CNN Architectures
-Link to syllabus: [day09_syllabus.md](day09/day09_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day09_syllabus.md](day09/day09_syllabus.md) | [reading.md](day09/reading.md) |
 
 ## Day 10: Project 1 - MNIST Classification with Custom NN
-Link to syllabus: [day10_syllabus.md](day10/day10_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day10_syllabus.md](day10/day10_syllabus.md) | [reading.md](day10/reading.md) |
 
 ---
 
 ## Day 11: Introduction to Natural Language Processing
-Link to syllabus: [day11_syllabus.md](day11/day11_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day11_syllabus.md](day11/day11_syllabus.md) | [reading.md](day11/reading.md) |
 
 ## Day 12: Word Embeddings and Vector Representations
-Link to syllabus: [day12_syllabus.md](day12/day12_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day12_syllabus.md](day12/day12_syllabus.md) | [reading.md](day12/reading.md) |
 
 ## Day 13: Recurrent Neural Networks (RNNs)
-Link to syllabus: [day13_syllabus.md](day13/day13_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day13_syllabus.md](day13/day13_syllabus.md) | [reading.md](day13/reading.md) |
 
 ## Day 14: Long Short-Term Memory Networks (LSTMs)
-Link to syllabus: [day14_syllabus.md](day14/day14_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day14_syllabus.md](day14/day14_syllabus.md) | [reading.md](day14/reading.md) |
 
 ## Day 15: Sequence-to-Sequence Models
-Link to syllabus: [day15_syllabus.md](day15/day15_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day15_syllabus.md](day15/day15_syllabus.md) | [reading.md](day15/reading.md) |
 
 ## Day 16: Attention Mechanisms
-Link to syllabus: [day16_syllabus.md](day16/day16_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day16_syllabus.md](day16/day16_syllabus.md) | [reading.md](day16/reading.md) |
 
 ## Day 17: Introduction to Transformers
-Link to syllabus: [day17_syllabus.md](day17/day17_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day17_syllabus.md](day17/day17_syllabus.md) | [reading.md](day17/reading.md) |
 
 ## Day 18: Text Classification with Deep Learning
-Link to syllabus: [day18_syllabus.md](day18/day18_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day18_syllabus.md](day18/day18_syllabus.md) | [reading.md](day18/reading.md) |
 
 ## Day 19: Character-Level Models and Text Generation
-Link to syllabus: [day19_syllabus.md](day19/day19_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day19_syllabus.md](day19/day19_syllabus.md) | [reading.md](day19/reading.md) |
 
 ## Day 20: Project 2 - Character-Level RNN for Text Generation
-Link to syllabus: [day20_syllabus.md](day20/day20_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day20_syllabus.md](day20/day20_syllabus.md) | [reading.md](day20/reading.md) |
 
 ---
 
 ## Day 21: Transformer Encoder Architecture
-Link to syllabus: [day21_syllabus.md](day21/day21_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day21_syllabus.md](day21/day21_syllabus.md) | [reading.md](day21/reading.md) |
 
 ## Day 22: Transformer Decoder and Full Architecture
-Link to syllabus: [day22_syllabus.md](day22/day22_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day22_syllabus.md](day22/day22_syllabus.md) | [reading.md](day22/reading.md) |
 
 ## Day 23: Tokenization Strategies for LLMs
-Link to syllabus: [day23_syllabus.md](day23/day23_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day23_syllabus.md](day23/day23_syllabus.md) | [reading.md](day23/reading.md) |
 
 ## Day 24: Introduction to GPT Architecture
-Link to syllabus: [day24_syllabus.md](day24/day24_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day24_syllabus.md](day24/day24_syllabus.md) | [reading.md](day24/reading.md) |
 
 ## Day 25: Training GPT from Scratch
-Link to syllabus: [day25_syllabus.md](day25/day25_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day25_syllabus.md](day25/day25_syllabus.md) | [reading.md](day25/reading.md) |
 
 ## Day 26: BERT and Masked Language Modeling
-Link to syllabus: [day26_syllabus.md](day26/day26_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day26_syllabus.md](day26/day26_syllabus.md) | [reading.md](day26/reading.md) |
 
 ## Day 27: Karpathy's minGPT - Understanding the Code
-Link to syllabus: [day27_syllabus.md](day27/day27_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day27_syllabus.md](day27/day27_syllabus.md) | [reading.md](day27/reading.md) |
 
 ## Day 28: Training minGPT on Shakespeare
-Link to syllabus: [day28_syllabus.md](day28/day28_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day28_syllabus.md](day28/day28_syllabus.md) | [reading.md](day28/reading.md) |
 
 ## Day 29: Advanced Training Techniques for LLMs
-Link to syllabus: [day29_syllabus.md](day29/day29_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day29_syllabus.md](day29/day29_syllabus.md) | [reading.md](day29/reading.md) |
 
 ## Day 30: Project 3 - minGPT on Shakespeare (Portfolio Project)
-Link to syllabus: [day30_syllabus.md](day30/day30_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day30_syllabus.md](day30/day30_syllabus.md) | [reading.md](day30/reading.md) |
 
 ---
 
 ## Day 31: Introduction to Hugging Face Transformers
-Link to syllabus: [day31_syllabus.md](day31/day31_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day31_syllabus.md](day31/day31_syllabus.md) | [reading.md](day31/reading.md) |
 
 ## Day 32: Fine-Tuning BERT for Text Classification
-Link to syllabus: [day32_syllabus.md](day32/day32_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day32_syllabus.md](day32/day32_syllabus.md) | [reading.md](day32/reading.md) |
 
 ## Day 33: Advanced Fine-Tuning Techniques
-Link to syllabus: [day33_syllabus.md](day33/day33_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day33_syllabus.md](day33/day33_syllabus.md) | [reading.md](day33/reading.md) |
 
 ## Day 34: Working with Large Language Models
-Link to syllabus: [day34_syllabus.md](day34/day34_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day34_syllabus.md](day34/day34_syllabus.md) | [reading.md](day34/reading.md) |
 
 ## Day 35: Evaluation Metrics for NLP Models
-Link to syllabus: [day35_syllabus.md](day35/day35_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day35_syllabus.md](day35/day35_syllabus.md) | [reading.md](day35/reading.md) |
 
 ## Day 36: Model Deployment with FastAPI
-Link to syllabus: [day36_syllabus.md](day36/day36_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day36_syllabus.md](day36/day36_syllabus.md) | [reading.md](day36/reading.md) |
 
 ## Day 37: Docker and Containerization
-Link to syllabus: [day37_syllabus.md](day37/day37_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day37_syllabus.md](day37/day37_syllabus.md) | [reading.md](day37/reading.md) |
 
 ## Day 38: MLOps Basics with MLflow
-Link to syllabus: [day38_syllabus.md](day38/day38_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day38_syllabus.md](day38/day38_syllabus.md) | [reading.md](day38/reading.md) |
 
 ## Day 39: Building a Complete ML Pipeline
-Link to syllabus: [day39_syllabus.md](day39/day39_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day39_syllabus.md](day39/day39_syllabus.md) | [reading.md](day39/reading.md) |
 
 ## Day 40: Project 4 - Fine-Tuned Text Classification System
-Link to syllabus: [day40_syllabus.md](day40/day40_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day40_syllabus.md](day40/day40_syllabus.md) | [reading.md](day40/reading.md) |
 
 ---
 
 ## Day 41: Introduction to Retrieval-Augmented Generation (RAG)
-Link to syllabus: [day41_syllabus.md](day41/day41_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day41_syllabus.md](day41/day41_syllabus.md) | [reading.md](day41/reading.md) |
 
 ## Day 42: Building a Document Q&A System with RAG
-Link to syllabus: [day42_syllabus.md](day42/day42_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day42_syllabus.md](day42/day42_syllabus.md) | [reading.md](day42/reading.md) |
 
 ## Day 43: Prompt Engineering and In-Context Learning
-Link to syllabus: [day43_syllabus.md](day43/day43_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day43_syllabus.md](day43/day43_syllabus.md) | [reading.md](day43/reading.md) |
 
 ## Day 44: LLM Evaluation and Safety
-Link to syllabus: [day44_syllabus.md](day44/day44_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day44_syllabus.md](day44/day44_syllabus.md) | [reading.md](day44/reading.md) |
 
 ## Day 45: Advanced Training Optimization
-Link to syllabus: [day45_syllabus.md](day45/day45_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day45_syllabus.md](day45/day45_syllabus.md) | [reading.md](day45/reading.md) |
 
 ## Day 46: LangChain and LLM Applications
-Link to syllabus: [day46_syllabus.md](day46/day46_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day46_syllabus.md](day46/day46_syllabus.md) | [reading.md](day46/reading.md) |
 
 ## Day 47: Capstone Project Planning
-Link to syllabus: [day47_syllabus.md](day47/day47_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day47_syllabus.md](day47/day47_syllabus.md) | [reading.md](day47/reading.md) |
 
 ## Day 48: Capstone Implementation - Part 1
-Link to syllabus: [day48_syllabus.md](day48/day48_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day48_syllabus.md](day48/day48_syllabus.md) | [reading.md](day48/reading.md) |
 
 ## Day 49: Capstone Implementation - Part 2
-Link to syllabus: [day49_syllabus.md](day49/day49_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day49_syllabus.md](day49/day49_syllabus.md) | [reading.md](day49/reading.md) |
 
 ## Day 50: Final Presentation and Course Completion
-Link to syllabus: [day50_syllabus.md](day50/day50_syllabus.md)
+| Syllabus | Reading |
+|----------|---------|
+| [day50_syllabus.md](day50/day50_syllabus.md) | [reading.md](day50/reading.md) |
 
 
 
